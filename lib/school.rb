@@ -31,7 +31,7 @@ class School
    
      sorted = @roster.each do  |grade, value|
         grade.sort 
-        value.sort 
+        value[0] <=> value[1] 
         binding.pry
       
     end 
