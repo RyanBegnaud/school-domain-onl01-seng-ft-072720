@@ -35,7 +35,8 @@ class School
       
     end 
     binding.pry
-    sorted
+    
+    return sorted
 
   end
 end
