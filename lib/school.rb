@@ -33,7 +33,7 @@ class School
         students_array.map do |student1, student2|
           student1 <=> student2
           binding.pry
-      
+      end
       
     end 
     binding.pry
