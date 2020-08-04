@@ -29,7 +29,7 @@ class School
 
   def sort
     sorted = @roster.to_a
-    sorted
+    
     binding.pry
     legoo = sorted.each do  |grade, value|
       value.sort 
