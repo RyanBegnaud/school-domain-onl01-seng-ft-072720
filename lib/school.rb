@@ -33,7 +33,7 @@ class School
         students_array.sort
         
           binding.pry
-      end
+      
       
     end 
     binding.pry
