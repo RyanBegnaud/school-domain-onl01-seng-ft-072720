@@ -28,8 +28,7 @@ class School
   end
 
   def sort
-    @roster.sort_by { |k, v| v[:age] }
-    }
+    @roster.sort_by { |k, v| v[name] }
     sorted = @roster.to_a
     legoo = sorted.each do  |grade, value|
       value.sort 
