@@ -29,13 +29,13 @@ class School
 
   def sort
    
-      @roster.each do  |key, value|
-        binding.pry 
+     sorted = @roster.each do  |key, value|
+        value[0] <=> value[1] 
       
       
     end 
     binding.pry
-    legoo.to_h
+    sorted.to_h
 
   end
 end
