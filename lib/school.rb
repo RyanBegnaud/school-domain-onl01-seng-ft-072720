@@ -30,8 +30,9 @@ class School
   def sort
     sorted = @roster.to_a
     binding.pry
-    legoo = sorted.each do  |grade, value|
-      value.sort 
+    sorted.sort(function(a, b) { 
+    return a[1] > b[1] ? 1 : -1;
+});
       
     end 
   
