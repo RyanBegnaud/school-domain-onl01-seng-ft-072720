@@ -31,13 +31,11 @@ class School
    
      sorted = @roster.each do |grade, students_array|
         students_array.sort
-        
-          binding.pry
       
       
     end 
     binding.pry
-    sorted.to_h
+    sorted
 
   end
 end
