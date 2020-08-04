@@ -28,12 +28,14 @@ class School
   end
 
   def sort
-    sorted = @roster.to_a
-    sorted.sort(function(a, b) { 
-    return a[1] > b[1] ? 1 : -1;
-    });
-    binding.pry
-    sorted.to_h
+   
+     sorted = @roster.each do  |grade, value|
+        grade.sort 
+        value.sort 
+      
+    end 
+  
+    legoo.to_h
 
   end
 end
