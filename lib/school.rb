@@ -30,7 +30,7 @@ class School
   def sort
    
       @roster.each do |grade, students_array|
-        return students_array.sort
+        sorted << students_array.sort
       
       
     end 
