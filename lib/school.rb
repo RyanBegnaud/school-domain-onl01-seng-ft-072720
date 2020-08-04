@@ -32,6 +32,7 @@ class School
      sorted = @roster.each do  |grade, value|
         grade.sort 
         value.sort 
+        binding.pry
       
     end 
   
