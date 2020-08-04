@@ -30,6 +30,7 @@ class School
   def sort
    
      sorted = @roster.each do  |key, value|
+        
         value[0] <=> value[1] 
       
       
