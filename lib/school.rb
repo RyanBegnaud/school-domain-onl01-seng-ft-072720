@@ -32,7 +32,7 @@ class School
     sorted.sort(function(a, b) { 
     return a[1] > b[1] ? 1 : -1;
     });
-    
+  end
     end 
     binding.pry
     sorted.to_h
