@@ -32,6 +32,7 @@ class School
      sorted = @roster.each do |grade, students_array|
         students_array.map do |student1, student2|
           student1 <=> student2
+          binding.pry
       
       
     end 
