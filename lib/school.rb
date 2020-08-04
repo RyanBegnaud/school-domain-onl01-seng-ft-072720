@@ -30,8 +30,8 @@ class School
   def sort
    
      sorted = @roster.each do |grade, students_array|
-        
-        value[0] <=> value[1] 
+        students_array.map do |student1, student2|
+          student1 <=> student2
       
       
     end 
