@@ -29,7 +29,7 @@ class School
 
   def sort
    
-      @roster.each do  |grade, value|
+      @roster.each do  |key, value|
         value[0] <=> value[1] 
       
       
