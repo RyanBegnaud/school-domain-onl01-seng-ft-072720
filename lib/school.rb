@@ -34,7 +34,7 @@ class School
     });
     
     end 
-  
+    binding.pry
     sorted.to_h
 
   end
