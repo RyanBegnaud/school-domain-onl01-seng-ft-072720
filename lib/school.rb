@@ -32,11 +32,11 @@ class School
     binding.pry
     sorted.sort(function(a, b) { 
     return a[1] > b[1] ? 1 : -1;
-});
+    });
       
     end 
   
-    legoo.to_h
+    sorted.to_h
 
   end
 end
