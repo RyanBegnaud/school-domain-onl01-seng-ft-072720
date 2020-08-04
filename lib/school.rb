@@ -31,10 +31,10 @@ class School
    
      sorted = @roster.each do  |grade, value|
         value[0] <=> value[1] 
-        binding.pry
+      
       
     end 
-  
+    binding.pry
     legoo.to_h
 
   end
